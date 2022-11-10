@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'mixins';
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textMain {
+    text-align: center;
+    font-family: $titles-font;
+    font-weight: 400;
+    color: $primary-color;
+    font-size: larger;
+    overflow-wrap: break-word;
+}
+
+@include mobile(){
+    .mainContainer {
+        flex-direction: column;
+    }
+}
+
+@include laptop() {
+    .mainContainer{
+        justify-content: unset;
+    }
+}

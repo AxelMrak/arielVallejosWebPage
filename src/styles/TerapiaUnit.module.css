@@ -1,0 +1,55 @@
+.containerTerapiaUnit {
+  width: 60%;
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+  transition: all 1s;
+}
+
+.containerTerapiaUnit:hover {
+  border-color: #9CC5A1;
+}
+
+.containerTerapiaUnit img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.containerTerapiaUnit button {
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin: 1rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  font-size: inherit;
+  background-color: #49A078;
+  color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.containerTerapiaUnit button:hover {
+  border-color: #49A078;
+  background-color: white;
+  color: black;
+}
+
+.containerTerapiaUnit:hover {
+  box-shadow: 1px 2px 1px 1px gray;
+}
+
+@media (max-width: 1023px) {
+  .containerTerapiaUnit {
+    width: 80%;
+  }
+}/*# sourceMappingURL=TerapiaUnit.module.css.map */

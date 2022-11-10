@@ -1,0 +1,26 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.textMain {
+  text-align: center;
+  font-family: "Mandali", sans-serif;
+  font-weight: 400;
+  color: #49A078;
+  font-size: larger;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 700px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1023px) {
+  .mainContainer {
+    justify-content: unset;
+  }
+}/*# sourceMappingURL=MainSection.module.css.map */

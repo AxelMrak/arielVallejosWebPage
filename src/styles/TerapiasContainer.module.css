@@ -1,0 +1,53 @@
+.terapiasSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.terapiasSectionContainer h3 {
+  color: #49A078;
+  font-family: "Cairo", sans-serif;
+}
+
+.terapiasContainer {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #49A078;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.buttonKnowMore {
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin: 2rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  font-size: larger;
+  background-color: #49A078;
+  color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.buttonKnowMore:hover {
+  border-color: #49A078;
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .terapiasContainer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1023px) {
+  .terapiasContainer {
+    max-width: 80vw;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=TerapiasContainer.module.css.map */
