@@ -8,6 +8,7 @@ import {
 import HomePage from "../Pages/Home/HomePage";
 import styles from "../styles/Header.module.css";
 import img from '../assets/logo.svg';
+import WhatsAppGlobal from "./WhatsAppGlobal";
 
 function Header() {
 	return (

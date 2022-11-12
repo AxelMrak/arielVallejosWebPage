@@ -25,13 +25,13 @@
 }
 
 .containerTerapiaUnit button {
-  padding: 0.5rem;
+  padding: 1rem;
   border: 1px solid white;
   border-radius: 25px;
   margin: 1rem;
   font-family: "Cairo", sans-serif;
   font-weight: 700;
-  font-size: inherit;
+  font-size: large;
   background-color: #49A078;
   color: white;
   cursor: pointer;

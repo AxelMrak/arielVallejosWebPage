@@ -1,0 +1,11 @@
+.locationsMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.locationsMainContainer h3 {
+  color: #49A078;
+  font-size: "Cairo", sans-serif;
+}/*# sourceMappingURL=LocationsSection.module.css.map */

@@ -36,6 +36,7 @@ function TerapiasContainerHome() {
 						title={terapia.title}
 						description={terapia.description}
 						terapiaImg={terapia.img}
+						key={terapia.title}
 					/>
 				)
 			}

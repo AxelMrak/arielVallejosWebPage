@@ -1,0 +1,29 @@
+.paymentSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+  padding: 1rem;
+}
+
+.paymentSectionContainer h3 {
+  color: #49A078;
+  font-family: "Cairo", sans-serif;
+}
+
+.mercadoPagoContainer {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+.mercadoPagoContainer a {
+  font-family: "Montserrat", sans-serif;
+  background-color: #42cfee;
+  color: white;
+  padding: 1rem;
+}/*# sourceMappingURL=PaymentsSection.module.css.map */

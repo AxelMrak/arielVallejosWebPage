@@ -21,13 +21,13 @@
 }
 
 .buttonKnowMore {
-  padding: 1rem;
+  padding: 1.5rem;
   border: 1px solid white;
   border-radius: 25px;
   margin: 2rem;
   font-family: "Cairo", sans-serif;
   font-weight: 700;
-  font-size: larger;
+  font-size: large;
   background-color: #49A078;
   color: white;
   cursor: pointer;

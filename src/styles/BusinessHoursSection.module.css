@@ -1,0 +1,30 @@
+.mainContainerHours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainerHours h3 {
+  color: #49A078;
+  font-size: "Cairo", sans-serif;
+}
+
+.hoursContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .hoursContainer {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    flex-wrap: nowrap;
+  }
+}/*# sourceMappingURL=BusinessHoursSection.module.css.map */

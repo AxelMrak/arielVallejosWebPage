@@ -1,0 +1,21 @@
+.hoursContainerUnit {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #49A078;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid white;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  transition: all 1s;
+}
+
+.hoursContainerUnit:hover {
+  border-color: #49A078;
+  background-color: white;
+  color: #49A078;
+}/*# sourceMappingURL=BusinessHoursUnit.module.css.map */

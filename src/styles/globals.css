@@ -22,4 +22,12 @@ a {
   align-items: center;
   justify-content: center;
   font-size: 2rem;
+}
+
+.whatsapp-global-container {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0%;
+  left: 100%;
+  margin: 1rem;
 }/*# sourceMappingURL=globals.css.map */

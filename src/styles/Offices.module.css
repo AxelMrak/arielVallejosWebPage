@@ -1,0 +1,9 @@
+.officesSectionContainer {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15%;
+}/*# sourceMappingURL=Offices.module.css.map */
