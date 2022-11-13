@@ -10,4 +10,17 @@
     border: 1px solid white;
     border-radius: 25px;
     width: 30%;
+    transition: all 1s;
+}
+
+.officeUnitContainer:hover {
+    border-color: $primary-color;
+        background-color: white;
+        color: $primary-color;
+}
+
+@include mobile() {
+    .officeUnitContainer{
+        width: 40%;
+    }
 }

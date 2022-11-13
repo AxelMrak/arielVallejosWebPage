@@ -3,7 +3,7 @@
   background-color: white;
   padding: 1rem;
   margin: 1rem;
-  border: 2px solid white;
+  border: 2px solid #49A078;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,9 @@
 }
 
 .containerTerapiaUnit:hover {
-  border-color: #9CC5A1;
+  background-color: #49A078;
+  color: white;
+  cursor: pointer;
 }
 
 .containerTerapiaUnit img {
@@ -42,10 +44,6 @@
   border-color: #49A078;
   background-color: white;
   color: black;
-}
-
-.containerTerapiaUnit:hover {
-  box-shadow: 1px 2px 1px 1px gray;
 }
 
 @media (max-width: 1023px) {

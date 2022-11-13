@@ -1,0 +1,55 @@
+.foot {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #49A078;
+  color: white;
+}
+
+.socialMedia {
+  font-family: "Cairo", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialMediaLogos img {
+  margin: 1rem;
+}
+
+.socialMediaLogos img:hover {
+  opacity: 0.5;
+}
+
+.footerContactMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerContact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+
+.footerContact img {
+  margin-right: 1rem;
+}
+
+.footerContact a:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 700px) {
+  .foot {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

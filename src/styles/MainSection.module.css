@@ -18,6 +18,9 @@
   .mainContainer {
     flex-direction: column;
   }
+  .mainContainer img {
+    width: 300px;
+  }
 }
 @media (max-width: 1023px) {
   .mainContainer {

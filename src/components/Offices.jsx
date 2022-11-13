@@ -1,6 +1,7 @@
 import React from 'react';
 import Office from './Office';
 import styles from '../styles/Offices.module.css';
+import Locations from './Locations';
 
 const officesArray = [
     {

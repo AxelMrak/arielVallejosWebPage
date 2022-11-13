@@ -36,6 +36,13 @@ a {
   margin: 1rem;
 }
 
-
+@include mobileS() {
+  .App{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+}
 
 

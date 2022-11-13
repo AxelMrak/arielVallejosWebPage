@@ -21,6 +21,9 @@
     .mainContainer {
         flex-direction: column;
     }
+    .mainContainer img {
+        width: 300px;
+    }
 }
 
 @include laptop() {

@@ -29,4 +29,15 @@
     background-color: #42cfee;
     color: white;
     padding: 1rem;
+    transition: all 1s;
+}
+
+.mercadoPagoContainer a:hover {
+    padding: 1.5rem;
+}
+
+@include mobileS() {
+    .mercadoPagoContainer {
+        text-align: center;
+    }
 }

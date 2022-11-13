@@ -7,4 +7,17 @@
   border: 1px solid white;
   border-radius: 25px;
   width: 30%;
+  transition: all 1s;
+}
+
+.officeUnitContainer:hover {
+  border-color: #49A078;
+  background-color: white;
+  color: #49A078;
+}
+
+@media (max-width: 700px) {
+  .officeUnitContainer {
+    width: 40%;
+  }
 }/*# sourceMappingURL=Office.module.css.map */

@@ -26,4 +26,15 @@
   background-color: #42cfee;
   color: white;
   padding: 1rem;
+  transition: all 1s;
+}
+
+.mercadoPagoContainer a:hover {
+  padding: 1.5rem;
+}
+
+@media (max-width: 425px) {
+  .mercadoPagoContainer {
+    text-align: center;
+  }
 }/*# sourceMappingURL=PaymentsSection.module.css.map */
