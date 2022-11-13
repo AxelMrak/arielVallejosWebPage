@@ -10,3 +10,9 @@
     justify-content: center;
     row-gap: 15%;
 }
+
+@include mobileS() {
+    .officesSectionContainer {
+        flex-direction: column;
+    }
+}

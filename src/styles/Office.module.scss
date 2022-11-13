@@ -19,8 +19,9 @@
         color: $primary-color;
 }
 
+
 @include mobile() {
     .officeUnitContainer{
-        width: 40%;
+        width: 70%;
     }
 }

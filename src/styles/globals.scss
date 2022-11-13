@@ -17,7 +17,6 @@ a {
 
 * {
   box-sizing: border-box;
-  
 }
 
 .App {
@@ -38,11 +37,14 @@ a {
 
 @include mobileS() {
   .App{
-        padding: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
   }
+  .whatsapp-global-container img {
+    width: 70px;
+  }
+
 }
 
 

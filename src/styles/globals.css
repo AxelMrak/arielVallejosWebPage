@@ -34,9 +34,11 @@ a {
 
 @media (max-width: 425px) {
   .App {
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .whatsapp-global-container img {
+    width: 70px;
   }
 }/*# sourceMappingURL=globals.css.map */

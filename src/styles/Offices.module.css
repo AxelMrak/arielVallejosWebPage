@@ -6,4 +6,10 @@
   align-items: center;
   justify-content: center;
   row-gap: 15%;
+}
+
+@media (max-width: 425px) {
+  .officesSectionContainer {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=Offices.module.css.map */

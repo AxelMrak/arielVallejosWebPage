@@ -1,4 +1,4 @@
-import img from "../assets/main-img.svg";
+import img from "../assets/mainImg.jpeg";
 import styles from "../styles/MainSection.module.scss";
 
 function MainSection() {
