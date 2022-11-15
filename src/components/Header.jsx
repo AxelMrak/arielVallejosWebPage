@@ -11,6 +11,7 @@ import img from '../assets/logo.svg';
 import WhatsAppGlobal from "./WhatsAppGlobal";
 import Offices from "./Offices";
 import UbicacionPage from "../Pages/Ubicacion/UbicacionPage";
+import TerapiasPage from "../Pages/Terapias/TerapiasPage";
 
 function Header() {
 	return (
@@ -29,7 +30,7 @@ function Header() {
 					{/* HomePage */}
 					<Route path="/" element={<HomePage />} />
 					{/* TODO: Terapias */}
-					<Route path="/terapias" element={<h2>Pendiente</h2>} />
+					<Route path="/terapias" element={<TerapiasPage/>} />
 					{/* Ubicacion y contacto */}
 					<Route path="/contacto" element={<UbicacionPage/>}></Route>
 					{/* 404 */}
