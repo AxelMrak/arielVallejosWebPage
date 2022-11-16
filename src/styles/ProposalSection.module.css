@@ -27,6 +27,29 @@
   font-weight: 500;
 }
 
+.proposalMainContainer img {
+  animation: pulse 5s alternate-reverse infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+    transform: translateY(20px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+    transform: translateY(20px);
+  }
+}
 @media (max-width: 700px) {
   .proposalMainContainer {
     flex-direction: column-reverse;

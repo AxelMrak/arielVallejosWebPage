@@ -6,7 +6,7 @@ function Proposal() {
   return (
 		<section className={styles.proposalMainContainer}>
 			<div className={styles.proposalImg}>
-				<img src={img} width='300' alt='Hombre relajado'/>
+				<img src={img} width='400' alt='Hombre relajado'/>
 			</div>
 			<div className={styles.proposalText}>
 				<h3>¿Que te propongo?</h3>

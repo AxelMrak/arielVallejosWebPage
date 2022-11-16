@@ -1,0 +1,20 @@
+.terapiaUnit {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #49A078;
+  border-radius: 1rem;
+  border: white 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem rgba(0, 0, 0, 0.2509803922);
+}
+
+.terapiaUnit:hover {
+  background-color: white;
+  transform: translateY(-1.5rem);
+  border: #49A078 0.1em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+}/*# sourceMappingURL=TerapiasUnitPageStyles.module.css.map */

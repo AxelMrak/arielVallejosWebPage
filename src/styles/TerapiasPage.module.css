@@ -1,0 +1,9 @@
+.terapiasPageContainer {
+  max-width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}/*# sourceMappingURL=TerapiasPage.module.css.map */

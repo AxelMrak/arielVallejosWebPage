@@ -2,12 +2,13 @@
 @import 'mixins';
 
 .head {
-    width: 100%;
+    width: 95vw;
     padding: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .list {

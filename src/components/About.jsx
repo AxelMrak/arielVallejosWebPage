@@ -13,7 +13,7 @@ function About() {
 				</p>
 			</div>
 			<div className={styles.imgContainer}>
-				<img src={Ariel} width="200" alt="Foto de Ariel Vallejos" />
+				<img src={Ariel} width="400" alt="Foto de Ariel Vallejos" />
 			</div>
 		</section>
 	);

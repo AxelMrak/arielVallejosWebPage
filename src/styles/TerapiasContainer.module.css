@@ -15,7 +15,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: #49A078;
   border-radius: 25px;
   padding: 1rem;
 }
@@ -24,7 +23,7 @@
   padding: 1.5rem;
   border: 1px solid white;
   border-radius: 25px;
-  margin: 2rem;
+  margin: 3rem;
   font-family: "Cairo", sans-serif;
   font-weight: 700;
   font-size: large;
