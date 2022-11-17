@@ -6,4 +6,9 @@
   justify-content: space-around;
   flex-wrap: wrap;
   row-gap: 3rem;
+}
+
+.terapiasPageMain h1 {
+  font-family: "Mandali", sans-serif;
+  text-align: center;
 }/*# sourceMappingURL=TerapiasPage.module.css.map */

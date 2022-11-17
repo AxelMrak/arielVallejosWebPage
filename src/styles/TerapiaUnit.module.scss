@@ -3,7 +3,8 @@
 
 .containerTerapiaUnit {
     width: 60%;
-    background-color: white;
+    background-color: $primary-color;
+    color: white;
     padding: 1rem;
     margin: 1rem;
     border: 2px solid $primary-color;
@@ -19,9 +20,18 @@
 }
 
 .containerTerapiaUnit:hover {
-    background-color: $primary-color;
-    color: $third-color;
+    background-color: white;
+    color: $primary-color;
     cursor: pointer;
+}
+
+.containerTerapiaUnit h4 {
+    font-family: $subtitles-font;
+}
+
+.containerTerapiaUnit p {
+    font-family: $text-font;
+    font-size: medium;
 }
 
 .containerTerapiaUnit img {
@@ -29,7 +39,7 @@
     border-radius: 25px;
 }
 
-.containerTerapiaUnit button {
+.containerTerapiaUnit a {
     padding: 1rem;
     border: 1px solid white;
     border-radius: 25px;
@@ -43,10 +53,10 @@
     transition: all 1s;
 }
 
-.containerTerapiaUnit button:hover {
+.containerTerapiaUnit a:hover {
     border-color: $primary-color;
     background-color: white;
-    color: black;
+    color: $primary-color;
 }
 
 

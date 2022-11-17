@@ -1,1 +1,1 @@
-{"version":3,"sources":["TerapiasPage.module.scss","TerapiasPage.module.css"],"names":[],"mappings":"AAAA;EACI,eAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,6BAAA;EACA,eAAA;EACA,aAAA;ACCJ","file":"TerapiasPage.module.css"}
+{"version":3,"sources":["TerapiasPage.module.scss","TerapiasPage.module.css","_variables.scss"],"names":[],"mappings":"AAGA;EACI,eAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,6BAAA;EACA,eAAA;EACA,aAAA;ACFJ;;ADKA;EACI,kCEdU;EFeV,kBAAA;ACFJ","file":"TerapiasPage.module.css"}

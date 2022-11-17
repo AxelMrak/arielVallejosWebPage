@@ -52,7 +52,7 @@ const terapiasUnit = [
         img: 'https://muysaludable.sanitas.es/wp-content/uploads/2018/03/9_presoterapia-1-1.jpg'
     },
     {
-        title: 'Péndulo Hebreo',
+        title: 'Pendulo Hebreo',
         section1: '¿Qué es el Péndulo Hebreo?',
         description1: 'Es una sanación con el uso de un péndulo como una herramienta para ayudar a transformar su cuerpo, su mente y su alma de estados inferiores a estados de salud y bienestar.',
         img: 'https://i.ytimg.com/vi/4UuWd8hPrRM/maxresdefault.jpg'
@@ -61,7 +61,7 @@ const terapiasUnit = [
         title: 'Reiki',
         section1: '¿Qué es el Reiki?',
         description1: 'Es una terapia curativa natural segura, holística, pues trata al ser humano como un todo, fácil de usar y puede tratar muchas enfermedades agudas y crónicas, tales cómo : sinusitis, rinitis, asma, cistitis, fatiga crónica, artritis ciática, insomnio, depresión, promover el bienestar espiritual , mental y físico.',
-        img: 'https://muysaludable.sanitas.es/wp-content/uploads/2018/03/9_presoterapia-1-1.jpg'
+        img: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Reiki.jpg'
     },
     {
         title: 'Flores de Bach',

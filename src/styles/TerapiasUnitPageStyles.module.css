@@ -1,10 +1,13 @@
-.terapiaUnit {
-  padding: 1rem;
+.terapiaUnitMain {
+  width: 90vw;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  row-gap: 1rem;
+  color: white;
   background-color: #49A078;
   border-radius: 1rem;
   border: white 0.2rem solid;
@@ -12,9 +15,44 @@
   box-shadow: 0.4rem 0.4rem 0.6rem rgba(0, 0, 0, 0.2509803922);
 }
 
-.terapiaUnit:hover {
+.terapiaUnitMain h2 {
+  font-family: "Mandali", sans-serif;
+}
+
+.descriptionTerapia h3 {
+  font-family: "Cairo", sans-serif;
+}
+
+.descriptionTerapia p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.terapiaUnitMain:hover {
+  color: black;
   background-color: white;
   transform: translateY(-1.5rem);
   border: #49A078 0.1em solid;
   border-radius: 2.5rem 0 2.5rem 0;
+}
+
+.terapiaUnitMain img {
+  width: 50%;
+  border-radius: 25px;
+}
+
+.terapiaUnitMain a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #49A078;
+  color: white;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 25px;
+  transition: all 1s;
+}
+
+.terapiaUnitMain a:hover {
+  color: #49A078;
+  background-color: white;
+  border: 2px solid #49A078;
 }/*# sourceMappingURL=TerapiasUnitPageStyles.module.css.map */
