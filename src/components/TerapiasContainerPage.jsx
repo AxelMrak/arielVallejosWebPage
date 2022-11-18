@@ -6,7 +6,7 @@ const terapiasUnit = [
     {
         title: 'Quiropraxia',
         section1: '¿Qué es la quiropraxia?',
-        description1: 'Esta es una profesión muy eficaz en el campo de la salud en general. Los quiroprácticos realizamos ajustes (manipulaciones) de la columna vertebral u otras partes del cuerpo. El objetivo es corregir problemas posturales (de posturas del cuerpo),aliviar el dolor y asistir a la capacidad natural del cuerpo de curarse a si mismo. Muchos testimonios tengo con esta terapia maravillosa.',
+        description1: 'Esta es una profesión muy eficaz en el campo de la salud en general. Los quiroprácticos realizamos ajustes (manipulaciones) de la columna vertebral u otras partes del cuerpo. El objetivo es corregir problemas posturales (de posturas del cuerpo), aliviar el dolor y asistir a la capacidad natural del cuerpo de curarse a si mismo. Muchos testimonios tengo con esta terapia maravillosa.',
         img: 'https://pro.institutoidip.com/storage/cursos/B5xv0lwRBf0LQdmnACBEKDjgaKO9XXeztXOwdTPk.webp'
     },
     {
@@ -36,19 +36,19 @@ const terapiasUnit = [
     {
         title: 'Nutrición natural',
         section1: '¿Qué es la nutrición natural?',
-        description1: 'Hace mucho más que solo ayudar a la persona a perder peso. Además de seguir un plan nutricional adecuado y mejorar tu salud ,pueden solucionar otros problemas a partir de la alimentación para que puedas estar mejor. Obteniendo una mejor salud en general. Que tu alimento sea tu medicina.',
+        description1: 'Hace mucho más que solo ayudar a la persona a perder peso. Además de seguir un plan nutricional adecuado y mejorar tu salud, pueden solucionar otros problemas a partir de la alimentación para que puedas estar mejor. Obteniendo una mejor salud en general. Que tu alimento sea tu medicina.',
         img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIxWszi3G305vavIB06yrZlCzZiWOsdWoYDtGWNg7zbP0FFR73toHJ7_t_Mb7xZSe8dI&usqp=CAU'
     },
     {
         title: 'Ventosa',
         section1: '¿Qué es la ventosa?',
-        description1: 'Es una antiguo instrumento de corugia de forma redondeada de vidrio o de metal, que se aplica en diversos puntos de la superficie del cuerpo para atraer a ello un aflujo de los líquidos mediante el vacío que se forma por la ventosa. Muy eficaz para tratar mala circulación, estrés, contractura, mala circulación, dores agudos, problemas de piel, etc.',
+        description1: 'Es una antiguo instrumento de cirugía de forma redondeada de vidrio o de metal, que se aplica en diversos puntos de la superficie del cuerpo para atraer a ello un aflujo de los líquidos mediante el vacío que se forma por la ventosa. Muy eficaz para tratar mala circulación, estrés, contractura, mala circulación, dolores agudos, problemas de piel, etc.',
         img: 'https://franklinsquarept.com/wp-content/uploads/2021/10/cuppingtherapy.jpeg'
     },
     {
         title: 'Presoterapia',
         section1: '¿Qué es la presoterapia?',
-        description1: 'Este tratamiento sirve para estimular y mejorar la circulación. Esto suele conllevar otros efectos positivos como la mejora de la oxigenación ,el tono y la firmeza de la piel. Además gracias a que se estimula la circulación, también mejora el funcionamiento del sistema inmune.Es muy eficaz para tratamientos de varices, arañitas y retención de liquido.',
+        description1: 'Este tratamiento sirve para estimular y mejorar la circulación. Esto suele conllevar otros efectos positivos como la mejora de la oxigenación, el tono y la firmeza de la piel. Además gracias a que se estimula la circulación, también mejora el funcionamiento del sistema inmune. Es muy eficaz para tratamientos de varices, arañitas y retención de liquido.',
         img: 'https://muysaludable.sanitas.es/wp-content/uploads/2018/03/9_presoterapia-1-1.jpg'
     },
     {
@@ -72,18 +72,18 @@ const terapiasUnit = [
 ]
 
 function TerapiasContainerPage() {
-  return (
-      <div className={styles.terapiasPageMain}>
-        <h1>Terapias</h1>
-        <div className={styles.terapiasPageContainer}>
-        {
-            terapiasUnit.map(terapia => 
-                <TerapiasUnitPage title={terapia.title} section1={terapia.section1} description1={terapia.description1} img={terapia.img}/>    
-            )
-        }
+    return (
+        <div className={styles.terapiasPageMain}>
+            <h1>Terapias</h1>
+            <div className={styles.terapiasPageContainer}>
+                {
+                    terapiasUnit.map(terapia =>
+                        <TerapiasUnitPage title={terapia.title} section1={terapia.section1} description1={terapia.description1} img={terapia.img} />
+                    )
+                }
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default TerapiasContainerPage

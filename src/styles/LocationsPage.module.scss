@@ -1,0 +1,8 @@
+@import 'mixins';
+@import 'variables';
+
+@include mobile() {
+    .locationsPageContainer {
+        width: 104%;
+    }
+}

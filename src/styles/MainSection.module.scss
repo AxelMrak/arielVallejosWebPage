@@ -2,6 +2,7 @@
 @import 'mixins';
 
 .mainContainer {
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,7 +20,10 @@
 
 @include mobile(){
     .mainContainer {
+        text-align: center;
+        font-size: medium;
         flex-direction: column;
+        justify-content: center;
     }
     .mainContainer img {
         width: 300px;

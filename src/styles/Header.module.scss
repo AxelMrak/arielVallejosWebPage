@@ -2,7 +2,7 @@
 @import 'mixins';
 
 .head {
-    width: 95vw;
+    width: 100%;
     padding: 1rem;
     display: flex;
     flex-direction: row;
@@ -28,6 +28,7 @@
 
 @include mobile() {
     .head {
+        width: 103%;
         flex-direction: column;
     }
     .head img {

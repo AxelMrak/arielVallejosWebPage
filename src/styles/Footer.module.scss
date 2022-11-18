@@ -2,7 +2,6 @@
 @import 'variables';
 
 .foot {
-    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,6 +51,7 @@
 
 @include mobile() {
     .foot {
+        width: 105%;
         flex-direction: column;
         row-gap: 1rem;
     }

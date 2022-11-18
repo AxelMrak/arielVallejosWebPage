@@ -59,9 +59,14 @@
     color: $primary-color;
 }
 
+@include mobile() {
+    .containerTerapiaUnit {
+        width: 80%;
+    }
+}
 
 @include laptop() {
     .containerTerapiaUnit {
-        width: 80%;
+        width: 100%;
     }
 }

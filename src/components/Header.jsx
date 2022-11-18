@@ -30,7 +30,7 @@ function Header() {
 				{/* TODO: Terapias */}
 				<Route path="/terapias" element={<TerapiasPage />} />
 				{/* Ubicacion y contacto */}
-				<Route path="/contacto" element={<UbicacionPage />}></Route>
+				<Route path="/contacto" element={<UbicacionPage />} />
 				{/* 404 */}
 				<Route path="*" element={<h1>404: Not Found</h1>} />
 			</Routes>

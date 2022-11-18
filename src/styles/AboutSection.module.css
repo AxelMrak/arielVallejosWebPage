@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: center;
   overflow-wrap: break-word;
-  width: 400px;
+  width: 30%;
 }
 
 .subtitleAbout {
@@ -44,9 +44,22 @@
   font-weight: 500;
 }
 
+.imgContainer {
+  max-width: 20%;
+}
+
 @media (max-width: 700px) {
   .aboutMainContainer {
-    flex-direction: column;
+    width: 100%;
+  }
+  .textContainer {
+    min-width: 100%;
+  }
+  .imgContainer {
+    max-width: 80%;
+  }
+  .aboutMainContainer {
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     row-gap: 2rem;

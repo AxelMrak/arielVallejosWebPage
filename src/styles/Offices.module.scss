@@ -11,8 +11,15 @@
     row-gap: 15%;
 }
 
+@include mobile() {
+    .officesSectionContainer {
+        flex-direction: column;
+    }
+}
+
 @include mobileS() {
     .officesSectionContainer {
+        
         flex-direction: column;
     }
 }

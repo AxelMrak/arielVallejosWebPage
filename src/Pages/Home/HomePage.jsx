@@ -5,7 +5,6 @@ import Proposal from '../../components/Proposal';
 import TerapiasContainerHome from '../../components/TerapiasContainerHome';
 import BusinessHours from '../../components/BusinessHours'
 import styles from '../../styles/HomePage.module.scss';
-import Map from '../../components/Map';
 import Locations from '../../components/Locations';
 import Offices from '../../components/Offices';
 import PaymentSection from '../../components/PaymentSection';

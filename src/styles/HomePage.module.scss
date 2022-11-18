@@ -1,5 +1,15 @@
+@import 'mixins';
+@import 'variables';
+
 .mainContainerHome {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     row-gap: 8rem;
+}
+
+@include mobile() {
+    .mainContainerHome {
+    width: 104%;
+    }
 }

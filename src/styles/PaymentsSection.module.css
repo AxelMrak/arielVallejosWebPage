@@ -35,7 +35,7 @@
 }
 
 @media (max-width: 425px) {
-  .mercadoPagoContainer {
+  .paymentSectionContainer {
     text-align: center;
   }
 }/*# sourceMappingURL=PaymentsSection.module.css.map */

@@ -1,5 +1,12 @@
 .mainContainerHome {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   row-gap: 8rem;
+}
+
+@media (max-width: 700px) {
+  .mainContainerHome {
+    width: 104%;
+  }
 }/*# sourceMappingURL=HomePage.module.css.map */

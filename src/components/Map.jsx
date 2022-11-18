@@ -1,16 +1,4 @@
-import React from 'react'
-import GoogleMaps from 'simple-react-google-maps';
-import { key } from '../services/googleApi';
-
-function Map() {
-  return (
-      <GoogleMaps
-          apiKey={key}
-          style={{ height: "400px", width: "100%", borderRadius: '25px' }}
-          zoom={11}
-          center={{ lat: -34.822467, lng: -58.515892 }}
-          markers={[
-              {
+const markers=[{
                   lat: -34.8490263,
                   lng: -58.5187667
               },
@@ -29,10 +17,5 @@ function Map() {
               {
                   lat: -34.8318146,
                   lng: -58.495036
-              }
-          ]} //optional
-      />
-  )
-}
+              }]
 
-export default Map;

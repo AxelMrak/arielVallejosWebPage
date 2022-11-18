@@ -7,13 +7,13 @@
 }
 
 .proposalText {
+  max-width: 60%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow-wrap: break-word;
-  width: 400px;
 }
 
 .proposalText h3 {
@@ -50,11 +50,15 @@
     transform: translateY(20px);
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 425px) {
   .proposalMainContainer {
-    flex-direction: column-reverse;
+    width: 100%;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 2rem;
+  }
+  .proposalText {
+    max-width: 100%;
   }
 }/*# sourceMappingURL=ProposalSection.module.css.map */

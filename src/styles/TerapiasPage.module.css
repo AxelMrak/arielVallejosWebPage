@@ -1,5 +1,5 @@
 .terapiasPageContainer {
-  max-width: 80vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,4 +11,10 @@
 .terapiasPageMain h1 {
   font-family: "Mandali", sans-serif;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  .terapiasPageContainer {
+    width: 105%;
+  }
 }/*# sourceMappingURL=TerapiasPage.module.css.map */
