@@ -6,6 +6,7 @@ function MainSection() {
 	return (
 		<main className={styles.mainContainer}>
 			<CarouselComponent/>
+			<h1>Ariel Vallejos - Terapias alternativas</h1>
 		</main>
 	);
 }
