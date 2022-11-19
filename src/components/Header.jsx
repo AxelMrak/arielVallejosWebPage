@@ -10,6 +10,7 @@ import styles from "../styles/Header.module.css";
 import img from '../assets/logo.svg';
 import UbicacionPage from "../Pages/Ubicacion/UbicacionPage";
 import TerapiasPage from "../Pages/Terapias/TerapiasPage";
+import NotFoundPage from "../Pages/404/NotFoundPage";
 
 function Header() {
 	return (
@@ -32,7 +33,7 @@ function Header() {
 				{/* Ubicacion y contacto */}
 				<Route path="/contacto" element={<UbicacionPage />} />
 				{/* 404 */}
-				<Route path="*" element={<h1>404: Not Found</h1>} />
+				<Route path="*" element={<NotFoundPage/>} />
 			</Routes>
 		</Router>
 	);
