@@ -27,7 +27,7 @@ const AnyReactComponent = ({ text }) => (
     <div style={{
         color: 'white',
         background: '#49A078',
-        padding: '20px 20px',
+        padding: '10px 10px',
         display: 'inline-flex',
         textAlign: 'center',
         alignItems: 'center',
