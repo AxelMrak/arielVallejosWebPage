@@ -27,7 +27,9 @@ const AnyReactComponent = ({ text }) => (
     <div style={{
         width: '50vw',
         height: '100vh',
-        position: 'relative'
+        position: 'relative',
+        backgroundColor: 'white',
+        color: 'tomato'
     }}>
         {text}
     </div>
@@ -52,9 +54,9 @@ class SimpleMap extends React.Component {
                 defaultZoom={this.props.zoom}
             >
                 <AnyReactComponent
-                    lat={59.955413}
-                    lng={30.337844}
-                    text={'Kreyser'}
+                    lat={-34.8562058}
+                    lng={-58.528218}
+                    text={'Sucursal Ezeiza'}
                 />
             </GoogleMapReact>
         );
