@@ -25,17 +25,8 @@ import { key } from '../services/googleApi';
 
 const AnyReactComponent = ({ text }) => (
     <div style={{
-        width: '100vw',
-        height: '200',
-        color: 'white',
-        background: 'grey',
-        padding: '15px 10px',
-        display: 'inline-flex',
-        textAlign: 'center',
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius: '100%',
-        transform: 'translate(-50%, -50%)'
+        width: '50vw',
+        height: '100vh',
     }}>
         {text}
     </div>
