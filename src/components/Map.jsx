@@ -27,6 +27,7 @@ const AnyReactComponent = ({ text }) => (
     <div style={{
         width: '50vw',
         height: '100vh',
+        position: 'relative'
     }}>
         {text}
     </div>
