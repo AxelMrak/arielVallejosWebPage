@@ -38,7 +38,7 @@ function TerapiasContainerHome() {
 					)
 				}
 			</div>
-			<a className={styles.buttonKnowMore} href='/terapias'> Conoce otras terapias </a>
+			<a className={styles.buttonKnowMore} href='./terapias'> Conoce otras terapias </a>
 		</div>
 
 	);

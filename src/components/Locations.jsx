@@ -8,7 +8,7 @@ function Locations() {
   return (
     <section className={styles.locationsMainContainer}>
         <h3>Encuéntranos</h3>
-        {/* <SimpleMap/> */}
+        <SimpleMap/>
     </section>
   )
 }
