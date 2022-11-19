@@ -8,10 +8,10 @@ import gif6 from '../assets/gifs/gif6.gif';
 
 function CarouselComponet() {
   return (
-    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={gif1} class="d-block w-100 h-300" alt="..."/>
+          <img src={gif1} class="d-block w-100" alt="..."/>
         </div>
         <div className="carousel-item">
           <img src={gif2} class="d-block w-100" alt="..."/>
@@ -29,11 +29,11 @@ function CarouselComponet() {
           <img src={gif6} class="d-block w-100" alt="..." />
         </div>
       </div>
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
