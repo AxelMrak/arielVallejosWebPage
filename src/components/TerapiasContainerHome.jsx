@@ -39,7 +39,7 @@ function TerapiasContainerHome() {
 					)
 				}
 			</div>
-			<Link className={styles.buttonKnowMore} to='https://papaya-griffin-53b941.netlify.app/terapias'> Conoce otras terapias </Link>
+			<Link className={styles.buttonKnowMore} to='/terapias'> Conoce otras terapias </Link>
 		</div>
 
 	);
