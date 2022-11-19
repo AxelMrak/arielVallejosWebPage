@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "../styles/TerapiasContainer.module.scss";
 import Terapia from "./Terapia";
 
@@ -38,7 +39,7 @@ function TerapiasContainerHome() {
 					)
 				}
 			</div>
-			<a className={styles.buttonKnowMore} href='https://papaya-griffin-53b941.netlify.app/terapias'> Conoce otras terapias </a>
+			<Link className={styles.buttonKnowMore} to='https://papaya-griffin-53b941.netlify.app/terapias'> Conoce otras terapias </Link>
 		</div>
 
 	);
