@@ -6,7 +6,10 @@ function MainSection() {
 	return (
 		<main className={styles.mainContainer}>
 			<CarouselComponent/>
-			<h1>Ariel Vallejos - Terapias alternativas</h1>
+			<div className={styles.textMain}>
+				<h1>Terapias Holísticas <hr/> y <hr/> Alternativas </h1>
+			</div>
+			
 		</main>
 	);
 }

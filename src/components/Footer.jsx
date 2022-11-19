@@ -20,12 +20,9 @@ function Footer() {
             </div>
             
             <div className={styles.footerContactMain}>
-                <h4>Contacto</h4>
-                <div className={styles.footerContact}>
                     <a href='https://www.google.com/maps/place/ARIEL+VALLEJOS+TERAPIAS+NATURALES/@-34.8318137,-58.4928572,15z/data=!4m2!3m1!1s0x0:0x33d74634b9831b4b?sa=X&ved=2ahUKEwiF0vy1yKv7AhXOvJUCHV83DSEQ_BJ6BAhOEAU' target='_blank'><img src={pin} width='30' alt='Google Maps Link' />Dardo Rocha 2454 , El Jagüel </a>
                     <a href='https://api.whatsapp.com/send?phone=5491155248066&text=Hola,%20te%20escribo%20desde%20tu%20web' target='_blank'><img src={whatsapp} width='30' alt='WhatsApp Link' />1155248066</a>
                     <a href='mailto:arielfernandovallejos2@gmail.com'><img src={email} width='30' alt='Email Link' />Enviame un email</a>
-                </div>
             </div>
             <div>
                 <img src={logoAriel} width='150'/>

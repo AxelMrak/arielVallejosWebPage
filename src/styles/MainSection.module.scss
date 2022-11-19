@@ -14,25 +14,44 @@
     font-family: $titles-font;
     font-weight: 400;
     color: $primary-color;
-    font-size: larger;
     overflow-wrap: break-word;
 }
 
+.textMain h1 {
+    font-size: 4rem;
+}
+
+hr {
+    opacity: 0;
+}
+
+@include mobileS() {
+    .mainContainer {
+        flex-direction: column;
+    }
+}
 
 @include mobile(){
     .mainContainer {
+        max-width: 100%;
         text-align: center;
         font-size: medium;
         flex-direction: column;
         justify-content: center;
+        row-gap: 5rem;
     }
-    .mainContainer img {
-        width: 300px;
+
+    .textMain {
+        max-width: 90%;
+    }
+
+    .textMain h1 {
+        font-size: 3rem;
     }
 }
 
 @include laptop() {
     .mainContainer{
-        justify-content: unset;
+        justify-content: space-around;
     }
 }

@@ -5,11 +5,12 @@
     background-color: $primary-color;
     color: $third-color;
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
     border: 1px solid white;
     border-radius: 25px;
     width: 30%;
+    height: 20%;
     transition: all 1s;
 }
 
@@ -19,6 +20,14 @@
         color: $primary-color;
 }
 
+.officeUnitContainer h4 {
+    font-size: 2rem;
+    font-family: $subtitles-font;
+}
+
+.officeUnitContainer a p {
+    font-family: $text-font;
+}
 
 @include mobile() {
     .officeUnitContainer{

@@ -7,24 +7,27 @@
 }
 
 .proposalText {
-  max-width: 60%;
+  max-width: 40%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow-wrap: break-word;
+  row-gap: 2rem;
 }
 
 .proposalText h3 {
   font-family: "Cairo", sans-serif;
   color: #49A078;
+  font-size: 3rem;
 }
 
 .proposalText p {
   overflow-wrap: break-word;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 2rem;
 }
 
 .proposalMainContainer img {
@@ -57,6 +60,14 @@
     align-items: center;
     justify-content: center;
     row-gap: 2rem;
+  }
+  .proposalText {
+    max-width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .proposalMainContainer {
+    flex-direction: column;
   }
   .proposalText {
     max-width: 100%;

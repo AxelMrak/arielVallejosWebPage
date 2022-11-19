@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    row-gap: 2rem;
     flex-wrap: wrap;
     text-align: center;
     transition: all 1s;
@@ -27,11 +27,13 @@
 
 .containerTerapiaUnit h4 {
     font-family: $subtitles-font;
+    font-size: 2rem;
 }
 
 .containerTerapiaUnit p {
     font-family: $text-font;
     font-size: medium;
+    font-size: 1.5rem;
 }
 
 .containerTerapiaUnit img {
@@ -46,7 +48,7 @@
     margin: 1rem;
     font-family: $subtitles-font;
     font-weight: 700;
-    font-size: large;
+    font-size: 1.5rem;
     background-color: $primary-color;
     color: white;
     cursor: pointer;

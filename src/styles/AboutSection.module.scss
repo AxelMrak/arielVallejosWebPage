@@ -28,18 +28,21 @@
     align-items: center;
     justify-content: center;
     overflow-wrap: break-word;
+    row-gap: 2rem;
     width: 30%;
 }
 
 .subtitleAbout {
     color: $primary-color;
     font-family: $subtitles-font;
+    font-size: 3rem;
 }
 
 .textAbout {
     overflow-wrap: break-word;
     font-family: $text-font;
     font-weight: 500;
+    font-size: 2rem;
 }
 
 .imgContainer {

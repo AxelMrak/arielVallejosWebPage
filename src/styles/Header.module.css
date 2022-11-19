@@ -1,11 +1,12 @@
 .head {
   width: 100%;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 .list {
@@ -31,6 +32,9 @@
   }
   .head img {
     width: 300px;
+  }
+  .list {
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 1023px) {

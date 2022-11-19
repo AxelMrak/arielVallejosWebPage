@@ -11,23 +11,40 @@
   font-family: "Mandali", sans-serif;
   font-weight: 400;
   color: #49A078;
-  font-size: larger;
   overflow-wrap: break-word;
 }
 
+.textMain h1 {
+  font-size: 4rem;
+}
+
+hr {
+  opacity: 0;
+}
+
+@media (max-width: 425px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+}
 @media (max-width: 700px) {
   .mainContainer {
+    max-width: 100%;
     text-align: center;
     font-size: medium;
     flex-direction: column;
     justify-content: center;
+    row-gap: 5rem;
   }
-  .mainContainer img {
-    width: 300px;
+  .textMain {
+    max-width: 90%;
+  }
+  .textMain h1 {
+    font-size: 3rem;
   }
 }
 @media (max-width: 1023px) {
   .mainContainer {
-    justify-content: unset;
+    justify-content: space-around;
   }
 }/*# sourceMappingURL=MainSection.module.css.map */

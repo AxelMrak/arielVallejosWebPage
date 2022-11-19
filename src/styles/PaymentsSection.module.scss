@@ -13,6 +13,7 @@
 .paymentSectionContainer h3{
     color: $primary-color;
     font-family: $subtitles-font;
+    font-size: 3rem;
 }
 
 .mercadoPagoContainer {
@@ -25,12 +26,17 @@
     text-align: center;
 }
 
+.mercadoPagoContainer p {
+    font-size: 2rem;
+}
+
 .mercadoPagoContainer a{
     font-family: $text-font;
     background-color: #42cfee;
     color: white;
     padding: 1rem;
     transition: all 1s;
+    font-size: 2rem;
 }
 
 .mercadoPagoContainer a:hover {
@@ -40,5 +46,8 @@
 @include mobileS() {
     .paymentSectionContainer {
         text-align: center;
+    }
+    .mercadoPagoContainer {
+        max-width: 90%;
     }
 }

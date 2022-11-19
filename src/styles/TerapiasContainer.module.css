@@ -7,6 +7,7 @@
 .terapiasSectionContainer h3 {
   color: #49A078;
   font-family: "Cairo", sans-serif;
+  font-size: 3rem;
 }
 
 .terapiasContainer {
@@ -26,7 +27,7 @@
   margin: 3rem;
   font-family: "Cairo", sans-serif;
   font-weight: 700;
-  font-size: large;
+  font-size: 1.5rem;
   background-color: #49A078;
   color: white;
   cursor: pointer;
@@ -39,7 +40,15 @@
   color: #49A078;
 }
 
+@media (max-width: 425px) {
+  .terapiasSectionContainer {
+    text-align: center;
+  }
+}
 @media (max-width: 700px) {
+  .terapiasSectionContainer {
+    text-align: center;
+  }
   .terapiasContainer {
     flex-direction: column;
   }

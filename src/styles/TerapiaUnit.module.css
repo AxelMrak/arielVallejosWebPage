@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  row-gap: 2rem;
   flex-wrap: wrap;
   text-align: center;
   transition: all 1s;
@@ -24,11 +24,13 @@
 
 .containerTerapiaUnit h4 {
   font-family: "Cairo", sans-serif;
+  font-size: 2rem;
 }
 
 .containerTerapiaUnit p {
   font-family: "Montserrat", sans-serif;
   font-size: medium;
+  font-size: 1.5rem;
 }
 
 .containerTerapiaUnit img {
@@ -43,7 +45,7 @@
   margin: 1rem;
   font-family: "Cairo", sans-serif;
   font-weight: 700;
-  font-size: large;
+  font-size: 1.5rem;
   background-color: #49A078;
   color: white;
   cursor: pointer;

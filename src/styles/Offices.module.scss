@@ -13,6 +13,7 @@
 
 @include mobile() {
     .officesSectionContainer {
+        margin: 1rem;
         flex-direction: column;
     }
 }

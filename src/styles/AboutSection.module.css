@@ -30,18 +30,21 @@
   align-items: center;
   justify-content: center;
   overflow-wrap: break-word;
+  row-gap: 2rem;
   width: 30%;
 }
 
 .subtitleAbout {
   color: #49A078;
   font-family: "Cairo", sans-serif;
+  font-size: 3rem;
 }
 
 .textAbout {
   overflow-wrap: break-word;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 2rem;
 }
 
 .imgContainer {

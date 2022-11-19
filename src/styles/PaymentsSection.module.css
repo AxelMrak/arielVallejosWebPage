@@ -10,6 +10,7 @@
 .paymentSectionContainer h3 {
   color: #49A078;
   font-family: "Cairo", sans-serif;
+  font-size: 3rem;
 }
 
 .mercadoPagoContainer {
@@ -22,12 +23,17 @@
   text-align: center;
 }
 
+.mercadoPagoContainer p {
+  font-size: 2rem;
+}
+
 .mercadoPagoContainer a {
   font-family: "Montserrat", sans-serif;
   background-color: #42cfee;
   color: white;
   padding: 1rem;
   transition: all 1s;
+  font-size: 2rem;
 }
 
 .mercadoPagoContainer a:hover {
@@ -37,5 +43,8 @@
 @media (max-width: 425px) {
   .paymentSectionContainer {
     text-align: center;
+  }
+  .mercadoPagoContainer {
+    max-width: 90%;
   }
 }/*# sourceMappingURL=PaymentsSection.module.css.map */

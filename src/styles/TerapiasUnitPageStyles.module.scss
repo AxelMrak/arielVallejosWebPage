@@ -2,14 +2,14 @@
 @import 'variables';
 
 .terapiaUnitMain {
-    width: 90%;
+    width: 70%;
     padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    row-gap: 1rem;
+    row-gap: 2rem;
     color: white;
     background-color: $primary-color;
     border-radius: 1rem;
@@ -20,14 +20,18 @@
 
 .terapiaUnitMain h2 {
     font-family: $titles-font;
+    font-size: 3rem;
 }
 
 .descriptionTerapia h3 {
     font-family: $subtitles-font;
+    font-size: 2.5rem;
 }
 
 .descriptionTerapia p {
+    margin: 1rem;
     font-family: $text-font;
+    font-size: 1.5rem;
 }
 
 .terapiaUnitMain:hover {
@@ -61,6 +65,9 @@
 }
 
 @include mobile() {
+    .terapiaUnitMain {
+        width: 90%;
+    }
     .terapiaUnitMain img{
         width: 100%;
     }

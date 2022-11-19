@@ -11,6 +11,7 @@
 .terapiasSectionContainer h3 {
     color: $primary-color;
     font-family: $subtitles-font;
+    font-size: 3rem;
 }
 
 .terapiasContainer {
@@ -31,7 +32,7 @@
     margin: 3rem;
     font-family: $subtitles-font;
     font-weight: 700;
-    font-size: large;
+    font-size: 1.5rem;
     background-color: $primary-color;
     color: white;
     cursor: pointer;
@@ -44,7 +45,16 @@
     color: $primary-color;
 }
 
+@include mobileS() {
+    .terapiasSectionContainer {
+        text-align: center;
+    }
+}
+
 @include mobile() {
+    .terapiasSectionContainer {
+        text-align: center;
+    }
     .terapiasContainer {
         flex-direction: column;
     }

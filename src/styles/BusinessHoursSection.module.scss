@@ -6,26 +6,40 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    row-gap: 2rem;
 }
 
 .mainContainerHours h3 {
     color: $primary-color;
     font-size: $subtitles-font;
+    font-size: 3rem;
 }
 
 .hoursContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
-    height: 500px;
-    width: 100%;
+    width: 80%;
 }
 
 @include mobile(){
+    .mainContainerHours {
+        text-align: center;
+    }
+    .mainContainerHours h3 {
+        max-width: 90%;
+    }
     .hoursContainer {
+        flex-direction: column;
         height: max-content;
         flex-wrap: nowrap;
+    }
+}
+
+@include mobileS() {
+    .hoursContainer {
+        flex-direction: column;
     }
 }

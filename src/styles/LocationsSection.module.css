@@ -3,9 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  row-gap: 1rem;
 }
 
 .locationsMainContainer h3 {
   color: #49A078;
   font-size: "Cairo", sans-serif;
+  font-size: 3rem;
 }/*# sourceMappingURL=LocationsSection.module.css.map */
