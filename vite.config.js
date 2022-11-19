@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import { VitePluginSitemap } from 'vite-plugin-sitemap';
+import  VitePluginSitemap  from 'vite-plugin-sitemap';
 import react from '@vitejs/plugin-react';
 
 const routes = [
