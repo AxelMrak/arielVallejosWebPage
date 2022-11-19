@@ -25,6 +25,8 @@ import { key } from '../services/googleApi';
 
 const AnyReactComponent = ({ text }) => (
     <div style={{
+        width: '100%',
+        height: '200',
         color: 'white',
         background: 'grey',
         padding: '15px 10px',
