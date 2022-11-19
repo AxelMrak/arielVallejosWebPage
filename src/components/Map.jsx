@@ -42,7 +42,7 @@ const AnyReactComponent = ({ text }) => (
 
 class SimpleMap extends React.Component {
     static defaultProps = {
-        center: { lat: 59.95, lng: 30.33 },
+        center: { lat: -34.81, lng: -58.53 },
         zoom: 11
     };
 
@@ -62,6 +62,26 @@ class SimpleMap extends React.Component {
                     lat={-34.8562058}
                     lng={-58.528218}
                     text={'Sucursal Ezeiza'}
+                />
+                <AnyReactComponent
+                    lat={-34.8973153}
+                    lng={-58.5614977}
+                    text={'Sucursal T. Suarez'}
+                />
+                <AnyReactComponent
+                    lat={-34.8165856}
+                    lng={-58.4709606}
+                    text={'Sucursal Monte Grande'}
+                />
+                <AnyReactComponent
+                    lat={-34.7474652}
+                    lng={-58.4735734}
+                    text={'Sucursal Lomas de Zamora'}
+                />
+                <AnyReactComponent
+                    lat={-34.8318137}
+                    lng={-58.4928572}
+                    text={'Sucursal El Jagüel'}
                 />
             </GoogleMapReact>
         );
