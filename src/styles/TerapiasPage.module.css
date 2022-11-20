@@ -13,6 +13,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   row-gap: 4rem;
+  margin: 2rem;
 }
 
 .terapiasPageMain h1 {
@@ -23,7 +24,7 @@
 
 @media (max-width: 700px) {
   .terapiasPageMain {
-    width: 105%;
+    width: 130%;
   }
   .terapiasPageMain h1 {
     font-size: 3rem;

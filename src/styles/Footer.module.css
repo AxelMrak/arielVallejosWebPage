@@ -47,7 +47,7 @@
 
 @media (max-width: 700px) {
   .foot {
-    width: 112%;
+    width: 130%;
     flex-direction: column;
     row-gap: 1rem;
   }
@@ -58,6 +58,6 @@
 }
 @media (max-width: 425px) {
   .foot {
-    width: 110%;
+    width: 130%;
   }
 }/*# sourceMappingURL=Footer.module.css.map */

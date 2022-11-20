@@ -9,7 +9,6 @@ function MainSection() {
 			<div className={styles.textMain}>
 				<h1>Terapias Holísticas <hr/> y <hr/> Alternativas </h1>
 			</div>
-			
 		</main>
 	);
 }

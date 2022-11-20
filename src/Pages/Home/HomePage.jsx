@@ -8,6 +8,8 @@ import styles from '../../styles/HomePage.module.scss';
 import Locations from '../../components/Locations';
 import Offices from '../../components/Offices';
 import PaymentSection from '../../components/PaymentSection';
+import Footer from '../../components/Footer';
+import WhatsAppGlobal from '../../components/WhatsAppGlobal';
 
 function HomePage() {
   return (
@@ -20,6 +22,7 @@ function HomePage() {
       <Locations/>
       <Offices/>
       <PaymentSection/>
+      <WhatsAppGlobal/>
     </div>
     
   )

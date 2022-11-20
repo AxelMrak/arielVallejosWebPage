@@ -52,7 +52,7 @@
 
 @include mobile() {
     .foot {
-        width: 112%;
+        width: 130%;
         flex-direction: column;
         row-gap: 1rem;
     }
@@ -64,6 +64,6 @@
 
 @include mobileS() {
     .foot {
-        width: 110%;
+        width: 130%;
     }
 }
