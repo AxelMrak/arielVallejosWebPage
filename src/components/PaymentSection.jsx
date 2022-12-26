@@ -33,7 +33,7 @@ useEffect(() => {
             <h3>Medios de pago</h3>
             <div className={styles.mercadoPagoContainer}>
                 <p>Puede abonar directamente desde esta página.</p>
-                <a href='https://mpago.la/1vgXqkx' target='_blank'>Pagar</a>
+                <a href='https://mpago.la/14cUm8N' target='_blank'>Pagar</a>
                 {
                     width >= 600 ? (<img src="https://imgmp.mlstatic.com/org-img/banners/ar/medios/575X40.jpg"
                         title="Mercado Pago - Medios de pago" alt="Mercado Pago - Medios de pago"
