@@ -5,7 +5,7 @@ import gif3 from '../assets/gifs/gif3.mp4';
 import gif4 from '../assets/gifs/gif4.mp4';
 import gif5 from '../assets/gifs/gif5.mp4';
 import gif6 from '../assets/gifs/gif6.mp4';
-import mainImage from '../assets/mai<video.jpeg';
+import mainImage from '../assets/mainImg.jpeg';
 
 function CarouselComponet() {
   return (
