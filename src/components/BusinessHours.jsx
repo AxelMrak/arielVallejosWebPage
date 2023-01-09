@@ -29,6 +29,11 @@ const hoursObject = [
     place: 'Lomas de Zamora',
     days: 'Sábado',
     hours: '14.00 a 18.00'
+  },
+  {
+    place: 'CABA',
+    days: 'Miercoles',
+    hours: '13.00 a 19.00'
   }
 ];
 

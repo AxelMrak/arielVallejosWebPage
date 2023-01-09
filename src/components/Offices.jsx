@@ -31,6 +31,13 @@ const officesArray = [
         tel: '0111563732534',
         telWithFormat: '(011) 15-6373-2534',
         whatsapp: '1163732534'
+    },
+    {
+        name: 'Sucursal CABA',
+        address: 'Esmeralda 1254 - CABA',
+        tel: '1157068904',
+        telWithFormat: '(011) 15-7068-904',
+        whatsapp: '1157068904'
     }
 ]
 

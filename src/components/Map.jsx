@@ -83,6 +83,11 @@ class SimpleMap extends React.Component {
                     lng={-58.4928572}
                     text={'Sucursal El Jagüel'}
                 />
+                <AnyReactComponent
+                    lat={-34.5933446}
+                    lng={-58.3809574}
+                    text={'Sucursal CABA'}
+                />
             </GoogleMapReact>
         );
     }
