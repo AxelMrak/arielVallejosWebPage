@@ -15,7 +15,7 @@ function Footer() {
                 <div className={styles.socialMediaLogos}>
                     <a href='https://api.whatsapp.com/send?phone=5491155248066&text=Hola,%20te%20escribo%20desde%20tu%20web'><img src={whatsapp} width='60' target='_blank' alt='WhatsApp Link' /></a>
                     <a href='https://www.instagram.com/arielf_vallejos/'><img src={instagram} width='60' target='_blank' alt='Instagram Link' /></a>
-                    <a href='https://www.facebook.com/ariel.vallejos.129794'><img src={facebook} width='60' target='_blank' alt='Facebook Link' /></a>
+                    <a href='https://www.facebook.com/arielterapiasnaturales?mibextid=ZbWKwL4'><img src={facebook} width='60' target='_blank' alt='Facebook Link' /></a>
                 </div>
             </div>
             
