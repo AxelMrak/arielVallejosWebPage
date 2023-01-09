@@ -4,21 +4,31 @@
 .mainContainer {
     max-width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: 100%;
 }
 
 .textMain {
+    position: relative;
+    transform: translate(-0%, -190%);
+    width: 100%;
     text-align: center;
     font-family: $titles-font;
     font-weight: 400;
-    color: $primary-color;
+    color: $third-color;
     overflow-wrap: break-word;
 }
 
 .textMain h1 {
-    font-size: 4rem;
+    text-align: center;
+    font-size: 5rem;
 }
 
 hr {
@@ -31,7 +41,7 @@ hr {
     }
 }
 
-@include mobile(){
+@include mobile() {
     .mainContainer {
         width: 112%;
         text-align: center;
@@ -42,7 +52,8 @@ hr {
     }
 
     .textMain {
-        max-width: 90%;
+        position: relative;
+        transform: translate(-0%, -150%);
     }
 
     .textMain h1 {
@@ -51,7 +62,7 @@ hr {
 }
 
 @include laptop() {
-    .mainContainer{
+    .mainContainer {
         justify-content: space-around;
     }
 }
