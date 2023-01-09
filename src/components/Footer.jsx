@@ -25,7 +25,7 @@ function Footer() {
                     <a href='mailto:arielfernandovallejos2@gmail.com'><img src={email} width='30' alt='Email Link' />Enviame un email</a>
             </div>
             <div>
-                <img src={logoAriel} width='150'/>
+                <img src={logoAriel} width='150' alt='Ariel Vallejos logo'/>
             </div>
             
         </footer>
