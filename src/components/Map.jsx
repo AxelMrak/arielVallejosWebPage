@@ -2,27 +2,6 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import { key } from '../services/googleApi';
 
-/* const markers=[{
-                  lat: -34.8490263,
-                  lng: -58.5187667
-              },
-              {
-                  lat: -34.8973197,
-                  lng: -58.5614977
-              },
-              {
-                  lat: -34.8143143,
-                  lng: -58.4753615
-              },
-              {
-                  lat: -34.7475454,
-                  lng: -58.4746641
-              },
-              {
-                  lat: -34.8318146,
-                  lng: -58.495036
-              }] */
-
 const AnyReactComponent = ({ text }) => (
     <div style={{
         color: 'white',
@@ -43,7 +22,7 @@ const AnyReactComponent = ({ text }) => (
 class SimpleMap extends React.Component {
     static defaultProps = {
         center: { lat: -34.81, lng: -58.53 },
-        zoom: 11
+        zoom: 9
     };
 
     render() {
