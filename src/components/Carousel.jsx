@@ -1,10 +1,10 @@
 import React from 'react';
 import gif1 from '../assets/gifs/gif1.mp4';
-import gif2 from '../assets/gifs/gif2.mp4';
-import gif3 from '../assets/gifs/gif3.mp4';
-import gif4 from '../assets/gifs/gif4.mp4';
-import gif5 from '../assets/gifs/gif5.mp4';
-import gif6 from '../assets/gifs/gif6.mp4';
+import gif2 from '../assets/gifs/gif2.gif';
+import gif3 from '../assets/gifs/gif3.gif';
+import gif4 from '../assets/gifs/gif4.gif';
+import gif5 from '../assets/gifs/gif5.gif';
+import gif6 from '../assets/gifs/gif6.gif';
 import mainImage from '../assets/mainImg.jpeg';
 
 function CarouselComponet() {
