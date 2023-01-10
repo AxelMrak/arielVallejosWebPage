@@ -2,7 +2,7 @@
 @import 'variables';
 
 .terapiaUnitMain {
-    width: 70%;
+    width: 60%;
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
 }
 
 .terapiaUnitMain img {
-    width: 50%;
+    width: 100%;
     border-radius: 25px;
 }
 
@@ -67,8 +67,5 @@
 @include mobile() {
     .terapiaUnitMain {
         width: 90%;
-    }
-    .terapiaUnitMain img{
-        width: 100%;
     }
 }

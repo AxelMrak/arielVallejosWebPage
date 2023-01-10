@@ -1,4 +1,3 @@
-import img from "../assets/mainImg.jpeg";
 import styles from "../styles/MainSection.module.scss";
 import videoWebm from '../assets/video/video-main-desktop.webm';
 import videoMp4 from '../assets/video/video-main-desktop.mp4';

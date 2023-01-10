@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: -20rem;
 }
 
 video {
@@ -25,18 +26,13 @@ video {
 
 .textMain h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 5vw;
 }
 
 hr {
   opacity: 0;
 }
 
-@media (max-width: 425px) {
-  .mainContainer {
-    flex-direction: column;
-  }
-}
 @media (max-width: 700px) {
   .mainContainer {
     width: 112%;
@@ -44,7 +40,7 @@ hr {
     font-size: medium;
     flex-direction: column;
     justify-content: center;
-    row-gap: 5rem;
+    row-gap: 2rem;
   }
   .textMain {
     position: relative;
@@ -57,5 +53,13 @@ hr {
 @media (max-width: 1023px) {
   .mainContainer {
     justify-content: space-around;
+  }
+}
+@media (max-width: 425px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+  .textMain {
+    transform: translate(0%, -130%);
   }
 }/*# sourceMappingURL=MainSection.module.css.map */

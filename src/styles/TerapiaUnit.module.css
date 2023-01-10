@@ -1,5 +1,6 @@
 .containerTerapiaUnit {
   width: 60%;
+  height: 650px;
   background-color: #49A078;
   color: white;
   padding: 1rem;
@@ -9,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   row-gap: 2rem;
   flex-wrap: wrap;
   text-align: center;
@@ -17,6 +18,8 @@
 }
 
 .containerTerapiaUnit:hover {
+  margin: 2rem;
+  transform: scale(1.1);
   background-color: white;
   color: #49A078;
   cursor: pointer;
@@ -30,10 +33,12 @@
 .containerTerapiaUnit p {
   font-family: "Montserrat", sans-serif;
   font-size: medium;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .containerTerapiaUnit img {
+  position: relative;
+  top: 0%;
   width: 100%;
   border-radius: 25px;
 }
