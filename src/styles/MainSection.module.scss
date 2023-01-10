@@ -18,7 +18,7 @@ video {
 
 .textMain {
     position: relative;
-    transform: translate(-0%, -190%);
+    transform: translate(-0%, -125%);
     width: 100%;
     text-align: center;
     font-family: $titles-font;
@@ -29,7 +29,7 @@ video {
 
 .textMain h1 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4rem;
 }
 
 hr {
@@ -50,7 +50,7 @@ hr {
 
     .textMain {
         position: relative;
-        transform: translate(-0%, -150%);
+        transform: translate(-0%, -105%);
     }
 
     .textMain h1 {
@@ -70,6 +70,10 @@ hr {
     }
 
     .textMain {
-        transform: translate(-0%, -130%);
+        transform: translate(-0%, -110%);
+    }
+
+    .textMain h1 {
+        font-size: 2.5rem;
     }
 }

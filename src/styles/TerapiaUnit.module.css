@@ -1,6 +1,8 @@
 .containerTerapiaUnit {
   width: 60%;
-  height: 650px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   background-color: #49A078;
   color: white;
   padding: 1rem;
