@@ -19,7 +19,7 @@ function HomePage() {
       <Proposal />
       <TerapiasContainerHome/>
       <BusinessHours/>
-      {/* <Locations/> */}
+      <Locations/> 
       <Offices/>
       <PaymentSection/>
       <WhatsAppGlobal/>
