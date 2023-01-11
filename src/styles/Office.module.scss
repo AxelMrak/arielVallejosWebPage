@@ -4,7 +4,7 @@
 .officeUnitContainer {
     background-color: $primary-color;
     color: $third-color;
-    margin: 1rem;
+    margin: 2rem;
     padding: 2rem;
     text-align: center;
     border: 1px solid white;
@@ -15,22 +15,29 @@
 }
 
 .officeUnitContainer:hover {
+    transform: scale(1.1);
     border-color: $primary-color;
-        background-color: white;
-        color: $primary-color;
+    background-color: white;
+    color: $primary-color;
 }
 
 .officeUnitContainer h4 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: $subtitles-font;
 }
 
-.officeUnitContainer a p {
+.officeUnitContainer p,
+a {
     font-family: $text-font;
+    font-size: 1.5rem;
+}
+
+.officeUnitContainer a:hover {
+    opacity: 0.5;
 }
 
 @include mobile() {
-    .officeUnitContainer{
+    .officeUnitContainer {
         width: 70%;
     }
 }

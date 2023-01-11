@@ -1,7 +1,7 @@
 .officeUnitContainer {
   background-color: #49A078;
   color: white;
-  margin: 1rem;
+  margin: 2rem;
   padding: 2rem;
   text-align: center;
   border: 1px solid white;
@@ -12,18 +12,25 @@
 }
 
 .officeUnitContainer:hover {
+  transform: scale(1.1);
   border-color: #49A078;
   background-color: white;
   color: #49A078;
 }
 
 .officeUnitContainer h4 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Cairo", sans-serif;
 }
 
-.officeUnitContainer a p {
+.officeUnitContainer p,
+a {
   font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.officeUnitContainer a:hover {
+  opacity: 0.5;
 }
 
 @media (max-width: 700px) {

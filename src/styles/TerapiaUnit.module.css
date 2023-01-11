@@ -1,18 +1,12 @@
 .containerTerapiaUnit {
-  width: 60%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  width: 350px;
   background-color: #49A078;
   color: white;
-  padding: 1rem;
-  margin: 1rem;
-  border: 2px solid #49A078;
+  margin: 2rem;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
   row-gap: 2rem;
   flex-wrap: wrap;
   text-align: center;
@@ -20,8 +14,8 @@
 }
 
 .containerTerapiaUnit:hover {
-  margin: 2rem;
   transform: scale(1.1);
+  box-shadow: 1px 1px 1px 1px #49A078;
   background-color: white;
   color: #49A078;
   cursor: pointer;
@@ -29,20 +23,21 @@
 
 .containerTerapiaUnit h4 {
   font-family: "Cairo", sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .containerTerapiaUnit p {
+  width: 70%;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: medium;
-  font-size: 1.3rem;
+  font-weight: medium;
+  font-size: 1.5rem;
 }
 
 .containerTerapiaUnit img {
-  position: relative;
-  top: 0%;
   width: 100%;
-  border-radius: 25px;
+  height: 30%;
+  border-radius: 25px 25px 0px 0px;
 }
 
 .containerTerapiaUnit a {
@@ -65,12 +60,17 @@
   color: #49A078;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1023px) {
   .containerTerapiaUnit {
-    width: 80%;
+    width: 100%;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 700px) {
+  .containerTerapiaUnit {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
   .containerTerapiaUnit {
     width: 100%;
   }

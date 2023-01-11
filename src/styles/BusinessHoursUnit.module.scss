@@ -3,7 +3,7 @@
 
 .hoursContainerUnit {
     width: 30%;
-    height: 30%;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@
 }
 
 .daysAndHours {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: $text-font;
 }
 

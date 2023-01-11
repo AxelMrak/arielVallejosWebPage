@@ -7,10 +7,10 @@ function MainSection() {
 		<main className={styles.mainContainer}>
 			<video muted autoPlay playsInline preload="auto" loop >
 				<source src={videoMp4} type='video/mp4' />
-				<source src={videoWebm} type='video/webm'/>
+				<source src={videoWebm} type='video/webm' />
 			</video>
 			<div className={styles.textMain}>
-				<h1>Terapias Holísticas <hr/> y <hr/> Alternativas </h1>
+				<h1>Terapias holísticas y alternativas </h1>
 			</div>
 		</main>
 	);
