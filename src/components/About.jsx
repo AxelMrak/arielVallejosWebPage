@@ -1,5 +1,5 @@
 import React from 'react';
-import Ariel from '../assets/Photo-Ariel.jpeg';
+import Ariel from '../assets/Photo-Ariel.webp';
 import styles from '../styles/AboutSection.module.css';
 
 function About() {

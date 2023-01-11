@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import acupunturaImg from '../assets/TerapiasImg/acupuntura.webp';
+import quiropraxiaImg from '../assets/TerapiasImg/quiropraxia-columna-vertebral.webp';
+import ventosaImg from '../assets/TerapiasImg/ventosas.webp';
 import styles from "../styles/TerapiasContainer.module.scss";
 import Terapia from "./Terapia";
 
@@ -7,17 +10,17 @@ const terapiasHome = [
 	{
 		title: "Quiropraxia",
 		description: "Los quiroprácticos realizamos ajustes (manipulaciones) de la columna vertebral u otras partes del cuerpo.",
-		img: "https://mejorconsalud.as.com/wp-content/uploads/2021/03/quiropraxia-columna-vertebral.jpg",
+		img: quiropraxiaImg,
 	},
 	{
 		title: "Acupuntura",
 		description: "Se utiliza esta terapia para aliviar las molestias asociadas con distintas enfermedades y trastornos.",
-		img: "https://mejorconsalud.as.com/wp-content/uploads/2014/01/la-acupuntura-que-es-y-cuales-son-sus-beneficios.jpg",
+		img: acupunturaImg,
 	},
 	{
 		title: "Ventosa",
 		description: "Se aplica en diversos puntos de la superficie del cuerpo para atraer a ello un aflujo de los líquidos mediante el vacío que se forma por la ventosa.",
-		img: "https://www.fisi-on.com/imagenes/tratamientos/ventosas-10-001.jpg",
+		img: ventosaImg,
 	},
 ];
 
