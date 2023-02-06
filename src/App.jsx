@@ -1,6 +1,5 @@
 import './styles/globals.css';
 import Header from './components/Header';
-import WhatsAppGlobal from './components/WhatsAppGlobal';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './Pages/Home/HomePage';
@@ -25,7 +24,6 @@ function App() {
         {/* 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-
       <Footer/>
     </Router>
   )

@@ -37,10 +37,10 @@ useEffect(() => {
                 {
                     width >= 600 ? (<img src="https://imgmp.mlstatic.com/org-img/banners/ar/medios/575X40.jpg"
                         title="Mercado Pago - Medios de pago" alt="Mercado Pago - Medios de pago"
-                        width="575" height="40" />) :
+                        width="575" height="40" loading='lazy'/>) :
                         (<img src="https://imgmp.mlstatic.com/org-img/banners/ar/medios/125X125.jpg"
                             title="Mercado Pago - Medios de pago" alt="Mercado Pago - Medios de pago"
-                            width="125" height="125" />)
+                            width="125" height="125" loading='lazy'/>)
                 }
             </div>
         </div>

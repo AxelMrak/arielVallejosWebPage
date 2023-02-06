@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import { key } from '../services/googleApi';
 
 const AnyReactComponent = ({ text }) => (
     <div style={{
@@ -36,6 +35,7 @@ class SimpleMap extends React.Component {
                 bootstrapURLKeys={{ key: 'AIzaSyDV9ulzKnNWo6-e0LYKJCi4KiWOVWkrMYQ' }}
                 defaultCenter={this.props.center}
                 defaultZoom={this.props.zoom}
+                
             >
                 <AnyReactComponent
                     lat={-34.8562058}

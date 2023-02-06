@@ -9,7 +9,7 @@ function Header() {
 				<img src={img} width='200' alt="Ariel Vallejos LOGO" />
 				<nav>
 					<div className={styles.list}>
-						<Link to="/" className={styles.unitList}> <span style={{margin: '1rem'}}>🏠</span> Inicio </Link>
+						<Link to="/" className={styles.unitList}> Inicio </Link>
 						<Link to="/terapias" className={styles.unitList}>Terapias</Link>
 						<Link to="/contacto" className={styles.unitList}>Contacto</Link>
 					</div>

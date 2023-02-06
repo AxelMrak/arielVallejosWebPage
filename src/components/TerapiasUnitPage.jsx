@@ -4,7 +4,7 @@ import styles from '../styles/TerapiasUnitPageStyles.module.css';
 function TerapiasUnitPage({ title, section1, description1, img }) {
   return (
     <div className={styles.terapiaUnitMain}>
-      <img src={img} width='300' alt={title}/>
+      <img src={img} width='300' alt={title} loading='lazy' />
       <h2>{title}</h2>
       <div className={styles.descriptionTerapia}>
         <h3>{section1}</h3>
