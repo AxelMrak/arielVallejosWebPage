@@ -1,30 +1,33 @@
-import React, { Fragment } from 'react';
-import About from '../../components/About';
+import React, { Fragment, lazy, Suspense } from 'react';
 import MainSection from '../../components/Main';
-import Proposal from '../../components/Proposal';
-import TerapiasContainerHome from '../../components/TerapiasContainerHome';
-import BusinessHours from '../../components/BusinessHours'
 import styles from '../../styles/HomePage.module.scss';
-import Locations from '../../components/Locations';
-import Offices from '../../components/Offices';
-import PaymentSection from '../../components/PaymentSection';
-import Footer from '../../components/Footer';
 import WhatsAppGlobal from '../../components/WhatsAppGlobal';
+import { Loader } from '../../components/Loader';
+
+const About = lazy(() => import('../../components/About'));
+const Proposal = lazy(() => import('../../components/Proposal'));
+const TerapiasContainerHome = lazy(() => import('../../components/TerapiasContainerHome'));
+const BusinessHours = lazy(() => import('../../components/BusinessHours'));
+const Locations = lazy(() => import('../../components/Locations'));
+const Offices = lazy(() => import('../../components/Offices'));
+const PaymentSection = lazy(() => import('../../components/PaymentSection'));
 
 function HomePage() {
   return (
     <div className={styles.mainContainerHome}>
       <MainSection />
-      <About />
-      <Proposal />
-      <TerapiasContainerHome/>
-      <BusinessHours/>
-      <Locations/> 
-      <Offices/>
-      <PaymentSection/>
-      <WhatsAppGlobal/>
+      <Suspense fallback={<Loader />}>
+        <About />
+        <Proposal />
+        <TerapiasContainerHome />
+        <BusinessHours />
+        <Locations />
+        <Offices />
+        <PaymentSection />
+      </Suspense>
+      <WhatsAppGlobal />
     </div>
-    
+
   )
 }
 

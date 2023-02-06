@@ -43,7 +43,7 @@ export default defineConfig({
       },
     }),
     VitePluginSitemap({
-      baseUrl: "https://terapiasariel.com/",
+      baseUrl: "https://terapiasariel.com",
       contentBase: "public",
       routes: routes,
       urlGenHook: (config) => {

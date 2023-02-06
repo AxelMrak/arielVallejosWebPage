@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import React, { Component, lazy, Suspense } from 'react';
+import { Loader } from './Loader';
+
+const GoogleMapReact = lazy(() => import('google-map-react'));
 
 const AnyReactComponent = ({ text }) => (
     <div style={{
@@ -26,48 +28,50 @@ class SimpleMap extends React.Component {
 
     render() {
         return (
-            <GoogleMapReact
-            style={{
-                width: '100%',
-                height: '70vh',
-                position: 'relative'
-            }}
-                bootstrapURLKeys={{ key: 'AIzaSyDV9ulzKnNWo6-e0LYKJCi4KiWOVWkrMYQ' }}
-                defaultCenter={this.props.center}
-                defaultZoom={this.props.zoom}
-                
-            >
-                <AnyReactComponent
-                    lat={-34.8562058}
-                    lng={-58.528218}
-                    text={'Sucursal Ezeiza'}
-                />
-                <AnyReactComponent
-                    lat={-34.8973153}
-                    lng={-58.5614977}
-                    text={'Sucursal T. Suarez'}
-                />
-                <AnyReactComponent
-                    lat={-34.8165856}
-                    lng={-58.4709606}
-                    text={'Sucursal Monte Grande'}
-                />
-                <AnyReactComponent
-                    lat={-34.7474652}
-                    lng={-58.4735734}
-                    text={'Sucursal Lomas de Zamora'}
-                />
-                <AnyReactComponent
-                    lat={-34.8318137}
-                    lng={-58.4928572}
-                    text={'Sucursal El Jagüel'}
-                />
-                <AnyReactComponent
-                    lat={-34.5933446}
-                    lng={-58.3809574}
-                    text={'Sucursal CABA'}
-                />
-            </GoogleMapReact>
+            <Suspense fallback={<Loader/>}>
+                <GoogleMapReact
+                    style={{
+                        width: '100%',
+                        height: '70vh',
+                        position: 'relative'
+                    }}
+                    bootstrapURLKeys={{ key: 'AIzaSyDV9ulzKnNWo6-e0LYKJCi4KiWOVWkrMYQ' }}
+                    defaultCenter={this.props.center}
+                    defaultZoom={this.props.zoom}
+
+                >
+                    <AnyReactComponent
+                        lat={-34.8562058}
+                        lng={-58.528218}
+                        text={'Sucursal Ezeiza'}
+                    />
+                    <AnyReactComponent
+                        lat={-34.8973153}
+                        lng={-58.5614977}
+                        text={'Sucursal T. Suarez'}
+                    />
+                    <AnyReactComponent
+                        lat={-34.8165856}
+                        lng={-58.4709606}
+                        text={'Sucursal Monte Grande'}
+                    />
+                    <AnyReactComponent
+                        lat={-34.7474652}
+                        lng={-58.4735734}
+                        text={'Sucursal Lomas de Zamora'}
+                    />
+                    <AnyReactComponent
+                        lat={-34.8318137}
+                        lng={-58.4928572}
+                        text={'Sucursal El Jagüel'}
+                    />
+                    <AnyReactComponent
+                        lat={-34.5933446}
+                        lng={-58.3809574}
+                        text={'Sucursal CABA'}
+                    />
+                </GoogleMapReact>
+            </Suspense>
         );
     }
 };
