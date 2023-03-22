@@ -12,12 +12,6 @@
   animation: pulse 2s infinite alternate-reverse;
 }
 
-@-webkit-keyframes pulse {
-  0% {
-    border: 3px solid white;
-  }
-}
-
 @keyframes pulse {
   0% {
     border: 3px solid white;

@@ -3,6 +3,7 @@ import MainSection from '../../components/Main';
 import styles from '../../styles/HomePage.module.scss';
 import WhatsAppGlobal from '../../components/WhatsAppGlobal';
 import { Loader } from '../../components/Loader';
+import Download from '../../components/Download';
 
 const About = lazy(() => import('../../components/About'));
 const Proposal = lazy(() => import('../../components/Proposal'));
@@ -24,6 +25,7 @@ function HomePage() {
         <Locations />
         <Offices />
         <PaymentSection />
+        <Download />
       </Suspense>
       <WhatsAppGlobal />
     </div>

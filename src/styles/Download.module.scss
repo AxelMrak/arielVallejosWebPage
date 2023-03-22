@@ -1,0 +1,39 @@
+@import 'mixins';
+@import 'variables';
+
+.downloadMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.downloadMainContainer h3 {
+  color: $primary-color;
+  font-family: $subtitles-font;
+  font-size: 3rem;
+}
+
+.downloadMainContainer a {
+  font-size: 2rem;
+  font-family: $text-font;
+  color: white;
+  font-weight: 700;
+  background-color: $primary-color;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 25px;
+  transition: transform 1s;
+}
+
+.downloadMainContainer a:hover {
+  transform: scale(1.1);
+}
+
+@include mobile() {
+  .downloadMainContainer h3 {
+    width: 80%;
+  }
+}

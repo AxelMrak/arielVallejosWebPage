@@ -20,10 +20,8 @@ a {
 }
 
 .whatsapp-global-container {
-  width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
-  position: -webkit-sticky;
   position: sticky;
   left: 100%;
   bottom: 0%;

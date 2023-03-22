@@ -15,7 +15,6 @@
 
 .containerTerapiaUnit:hover {
   transform: scale(1.1);
-  box-shadow: 1px 1px 1px 1px #49A078;
   background-color: white;
   color: #49A078;
   cursor: pointer;

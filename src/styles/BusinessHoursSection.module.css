@@ -30,7 +30,6 @@
   }
   .hoursContainer {
     flex-direction: column;
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     flex-wrap: nowrap;
