@@ -5,6 +5,13 @@ import Locations from './Locations';
 
 const officesArray = [
     {
+        name: 'Sucursal El Jagüel',
+        address: 'Dardo Rocha 2454 - El Jagüel',
+        tel: '01155248066',
+        telWithFormat: '(011) 15-5224-8066',
+        whatsapp: '01155248066'
+    },
+    {
         name: 'Sucursal Ezeiza',
         address: '12 de Octubre 489 - Ezeiza',
         tel: '0111551131005',
