@@ -14,9 +14,9 @@ const officesArray = [
     {
         name: 'Sucursal Ezeiza',
         address: 'Garay 895 - Ezeiza',
-        tel: '0111551131005',
-        telWithFormat: '(011) 15-5113-1005',
-        whatsapp: '1151131005'
+        tel: '11 5524-8066',
+        telWithFormat: '(011) 5524-8066',
+        whatsapp: '11 5524-8066'
     },
     {
         name: 'Sucursal T. Suarez',
