@@ -12,6 +12,7 @@ import pendulo from '../assets/TerapiasImg/terapia9.webp';
 import reiki from '../assets/TerapiasImg/terapia10.webp';
 import flores from '../assets/TerapiasImg/terapia11.webp';
 import styles from '../styles/TerapiasPage.module.css';
+import escaneo from '../assets/TerapiasImg/escaneo.jpeg'
 
 const terapiasUnit = [
     {
@@ -79,6 +80,12 @@ const terapiasUnit = [
         section1: '¿Qué son las Flores de Bach?',
         description1: 'Las Flores de Bach son una serie de esencias naturales utilizadas para tratar diversas situaciones emocionales, como miedos, soledad, desesperación, estrés, depresión y obsesiones.',
         img: flores
+    },
+    {
+        title: 'Escaneo de columna',
+        section1: '¿Qué es el escaneo de columna?',
+        description1: 'El escaneo de columna es un procedimiento médico que se utiliza para obtener imágenes detalladas de la columna vertebral de una persona con el fin de evaluar la estructura, la salud y las posibles anomalías de la columna vertebral. El escaneo de columna es fundamental para el diagnóstico de condiciones médicas que afectan la espalda y la columna, como hernias discales, fracturas, luxaciones, etc. También se utiliza en la monitorización de la respuesta al tratamiento.',
+        img: escaneo
     },
 ]
 
