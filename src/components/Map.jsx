@@ -41,8 +41,8 @@ class SimpleMap extends React.Component {
 
                 >
                     <AnyReactComponent
-                        lat={-34.8562058}
-                        lng={-58.528218}
+                        lat={-34.9030203}
+                        lng={-58.5708149}
                         text={'Sucursal Ezeiza'}
                     />
                     <AnyReactComponent
